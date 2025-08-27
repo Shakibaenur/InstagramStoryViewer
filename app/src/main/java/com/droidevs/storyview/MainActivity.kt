@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
             StoryViewTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(Modifier.padding(innerPadding)) {
-                        InstagramStory()
+                        StoryViewer()
                     }
                 }
             }
@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun InstagramStory() {
+fun StoryViewer() {
     val images = remember {
         listOf(
             R.drawable.ic_story_1,
@@ -178,6 +178,6 @@ fun StoryProgressIndicator(
 @Composable
 fun GreetingPreview() {
     StoryViewTheme {
-        InstagramStory()
+        StoryViewer()
     }
 }
