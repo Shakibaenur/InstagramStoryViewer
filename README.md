@@ -1,5 +1,5 @@
 ## Demonstrate
 
 <p align="center">
-<img src="https://github.com/Shakibaenur/InstagramStoryViewer/tree/development/resource/storyviewer.gif" width="300" height="700" title="NoteADay">
+<img src="https://github.com/Shakibaenur/InstagramStoryViewer/blob/development/resource/storyviewer.gif" width="400" height="800" title="NoteADay">
 </p>
